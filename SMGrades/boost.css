@@ -1,0 +1,51 @@
+.widget-type-derniere_note{
+    height: max-content !important;
+    padding-bottom: 20px !important;
+    text-justify: center !important;
+  }
+  
+  #myTable {
+    width: 100%;
+    text-align: left;
+    padding: 0 0 20px;
+    margin-bottom: 0px;
+  }
+  
+  #myTable th,
+  #myTable td {
+    padding: 8px !important; /* Ajoute un peu d'espace autour du contenu */
+    border-bottom: 1px solid #ddd !important; /* Ajoute une bordure en bas de chaque ligne */
+    font-size: 18px !important; /* Définit la taille de la police */
+    font-weight: bold !important;
+  }
+  
+  #myTable th {
+    background-color: #f2f2f2; /* Couleur de fond pour les cellules d'en-tête */
+    font-weight: bold; /* Texte en gras pour les cellules d'en-tête */
+  }
+  
+  /* Styles conditionnels pour les notes */
+  
+  #myTable td.high-score {
+    color: rgb(33, 230, 33) !important; /* Couleur verte pour les notes supérieures à 13 */
+  }
+  
+  #myTable td.medium-score {
+    color: rgb(221, 151, 0) !important; /* Couleur jaune pour les notes entre 10 et 13 */
+  }
+  
+  #myTable td.low-score {
+    color: rgb(255, 100, 100) !important; /* Couleur rouge pour les notes inférieures à 10 */
+  }
+  
+  /* Cacher les notes de bases */
+  .ui-carousel-item :first-child > :last-child:has(.texteIndicateur)
+  {
+    display: none;
+  }
+  
+  /* Cache les flèches */
+  .ui-widget .ui-widget-content .ui-widget .ui-icon{
+    display: none !important;
+  }
+  
