@@ -4,7 +4,9 @@ FixWebAurion est un dépôt contenant mes scripts JavaScript et CSS conçus pour
 
 ## Fonctionnalités
 
-- [x] **Affichage amélioré des notes** : Remplace le carrousel par un tableau pour une visualisation plus claire.
+- [x] **Affichage amélioré des notes (2 options)** :
+  - [x] Remplace le carrousel par un tableau pour une visualisation plus claire.
+  - [x] Inverse le carousel pour obtenir la note la plus récente d'abord
 
 ## Requirements
 
