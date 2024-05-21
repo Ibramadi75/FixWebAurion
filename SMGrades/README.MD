@@ -1,6 +1,7 @@
 # SMGrades
 
 SMGrades est un boost qui améliore l'affichage des notes en les présentant dans un tableau clair et lisible, au lieu d'une carrousel difficile à naviguer.
+![Show SGrades](./res/SMGrades_v1.png)
 
 ## Description
 
@@ -24,7 +25,7 @@ Pour installer et utiliser SMGrades, vous aurez besoin de Arc (sur mac), la vers
 2. Cmd+T et rechercher "**Edit Boost**"
 
 3. La fenêtre d'édition des boosts s'affiche :
-![Edit boost window](editboost_window.png)
+![Edit boost window](./res/editboost_window.png)
 
 4. Mettre le contenu de **boost.css** dans la partie **Code>CSS**
    
