@@ -22,7 +22,7 @@ note : ***la version Windows étant récente ne dispose pas de la gestion des bo
 
 ### Requirements
 
-1. Se rendre sur la page [Web](https://webaurion.esiee.fr/#)
+1. Se rendre sur la page [WebAurion](https://webaurion.esiee.fr/#)
 
 2. Appuyez sur Cmd+T et recherchez "**Edit Boost**"
 
